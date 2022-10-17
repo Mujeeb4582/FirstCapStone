@@ -10,7 +10,6 @@
 
 a {
   text-decoration: none;
-  /* color: #fff; */
 }
 
 /* ---- Nav style start ---  */
@@ -18,7 +17,6 @@ a {
 .nav-bar {
   display: flex;
   gap: 35%;
-  margin: 16px;
 }
 
 .wrap-hamburger {
@@ -27,11 +25,13 @@ a {
 }
 
 .hamburger {
-  /* position: fixed; */
   padding: 12px 12px 12px 12px;
   border: none;
-  background: white;
   cursor: pointer;
+}
+
+.logo {
+  display: none;
 }
 
 .nav-list {
@@ -64,26 +64,26 @@ a {
 }
 
 .message {
-  margin: 17px 25px 0 25px;
-  padding: 13px 30px;
+  margin: 40px 25px 0 25px;
+  padding: 0 30px;
   line-height: 25px;
   word-break: break-all;
   text-align: justify;
   background-color: rgb(247, 247, 248);
   color: rgb(111, 112, 116);
-  background: transparent;
+  /* background: transparent; */
 }
 
 .location {
-    text-align: center;
-    width: 100%;
-    margin: 0px;
-    padding-top: 40px;
-    padding-bottom: 100px;
-    background-color: rgb(247, 247, 248);
-    color: #272a31;
-    line-height: 30px;
-    background: transparent;
+  text-align: center;
+  width: 100%;
+  margin: 0px;
+  padding-top: 40px;
+  padding-bottom: 100px;
+  background-color: rgb(247, 247, 248);
+  color: #272a31;
+  line-height: 30px;
+  background: transparent;
 }
 
 .location .date {
