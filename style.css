@@ -144,3 +144,12 @@ a {
   width: calc(100% - 6.5em);
   color: #d3d3d3;
 }
+
+.join {
+  background-color: #ec5242;
+  color: #d3d3d3;
+  border: none;
+  font-size: 14px;
+  padding: 16px;
+  margin: 40px 0;
+}
