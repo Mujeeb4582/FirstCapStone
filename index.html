@@ -7,13 +7,21 @@
     <link
       href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet" />
-    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./style.css" />
     <title>Mujeeb Capstone</title>
   </head>
   <body>
     <!-- Header and Nav section -->
     <header>
-      <nav>
+      <nav class="nav-bar">
+        <div class="wrap-hamburger">
+          <button class="hamburger">
+            <!-- material icons https://material.io/resources/icons/ -->
+            <i class="menuIcon material-icons">menu</i>
+            <i class="closeIcon material-icons">close</i>
+          </button>
+        </div>
+
         <div class="logo">
           <a href="#">
             <img src="./Imgs/1-logo.png" alt="logo of CC Global summit 2015"
@@ -27,34 +35,31 @@
           <li class="nav-items"><a href="#">News</a></li>
           <li class="nav-items"><a href="#">CC Campaign</a></li>
         </ul>
-        <button class="hamburger">
-          <!-- material icons https://material.io/resources/icons/ -->
-          <i class="menuIcon material-icons">menu</i>
-          <i class="closeIcon material-icons">close</i>
-        </button>
       </nav>
     </header>
 
     <!-- Main section and Headline Start -->
 
     <section class="main">
-      <div class="bgImg"></div>
-      <div class="headline">
-        <img
-          src="./Imgs/3-title.png"
-          alt="welcome sharing world!  creative commons global summit 2015" />
+      <div class="bgImg">
+        <div class="headline">
+          <img
+            src="./Imgs/3-title.png"
+            alt="welcome sharing world!  creative commons global summit 2015" />
+        </div>
+        <p class="message">
+          A fun festival where people from more than 80 countries who believe in
+          the value of sharing and openness and create positive change gather and
+          share ideas will be held in Korea in October.
+        </p>
+        <div class="location">
+          <h1 class="date">2015.10.14 (Wed) ~ 17 (Sat)</h1>
+          <h5 class="locate">
+            @ National Museum of Korea, Art Center Nabi, etc.
+          </h5>
+        </div>
       </div>
-      <p class="message">
-        A fun festival where people from more than 80 countries who believe in
-        the value of sharing and openness and create positive change gather and
-        share ideas will be held in Korea in October.
-      </p>
-      <div class="location">
-        <h3 class="date">2015.10.14 (Wed) ~ 17 (Sat)</h3>
-        <h5 class="locate">
-          @ National Museum of Korea, Art Center Nabi, etc.
-        </h5>
-      </div>
+
     </section>
 
     <!-- Program Section start -->

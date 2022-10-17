@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,700&display=swap');
+
+* {
+  font-family: 'Lato', sans-serif;
+  font-style: normal;
+  box-sizing: border-box;
+  margin: 0;
+  scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: none;
+  /* color: #fff; */
+}
+
+/* ---- Nav style start ---  */
+
+.nav-bar {
+  display: flex;
+  gap: 35%;
+  margin: 16px;
+}
+
+.wrap-hamburger {
+  display: flex;
+  align-items: center;
+}
+
+.hamburger {
+  position: fixed;
+  padding: 12px 12px 12px 12px;
+  border: none;
+  background: white;
+  cursor: pointer;
+}
+
+.nav-list {
+  display: none;
+}
+
+.closeIcon {
+  display: none;
+}
+
+/* ----- Main section and headline start */
+
+.bgImg {
+  background-image: url(./Imgs/2-Mobile-intro-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.headline {
+  padding-top: 50px;
+  text-align: center;
+  margin: 0 25px;
+}
+
+.headline img {
+  width: 90%;
+  background: transparent;
+}
+
+.message {
+  margin: 17px 25px 0 25px;
+  padding: 13px 30px;
+  line-height: 25px;
+  word-break: break-all;
+  text-align: justify;
+  background-color: rgb(247, 247, 248);
+  color: rgb(111, 112, 116);
+  background: transparent;
+}
+
+.location {
+    text-align: center;
+    width: 100%;
+    margin: 0px;
+    padding-top: 40px;
+    background-color: rgb(247, 247, 248);
+    color: #272a31;
+    line-height: 30px;
+    background: transparent;
+}
+
+.location .date {
+  font-weight: 900;
+  font-size: 30px;
+  line-height: 40px;
+}
+
+.location .locate {
+  font-size: 16px;
+  color: rgb(111, 112, 116);
+}
+
+/* ----- Program section start ---  */
+
+.program {
+  background-image: url(./Imgs/9-program-bg.jpg);
+  color: #fff;
+}
