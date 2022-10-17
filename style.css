@@ -27,7 +27,7 @@ a {
 }
 
 .hamburger {
-  position: fixed;
+  /* position: fixed; */
   padding: 12px 12px 12px 12px;
   border: none;
   background: white;
@@ -48,6 +48,8 @@ a {
   background-image: url(./Imgs/2-Mobile-intro-bg.png);
   background-repeat: no-repeat;
   background-size: cover;
+  height: 100vh;
+  width: 100vw;
 }
 
 .headline {
@@ -77,6 +79,7 @@ a {
     width: 100%;
     margin: 0px;
     padding-top: 40px;
+    padding-bottom: 100px;
     background-color: rgb(247, 247, 248);
     color: #272a31;
     line-height: 30px;
@@ -99,4 +102,44 @@ a {
 .program {
   background-image: url(./Imgs/9-program-bg.jpg);
   color: #fff;
+  text-align: center;
+  padding-top: 50px;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.main_heading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.guidbar {
+  width: 53px;
+  height: 16px;
+  border-bottom: 1px solid #ec5242;
+  margin: 0px auto 54px;
+}
+
+.program_list {
+  background: rgba(255, 255, 255, 0.1);
+  display: flex;
+  align-items: center;
+  padding: 16px;
+  margin-bottom: 8px;
+  gap: 8px;
+}
+
+.program_title {
+  font-size: 14px;
+  color: #ec5242;
+  float: left;
+  text-align: center;
+  width: 50%;
+}
+
+.program_description {
+  text-align: left;
+  font-size: 12px;
+  width: calc(100% - 6.5em);
 }
