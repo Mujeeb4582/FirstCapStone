@@ -13,6 +13,7 @@
 .nav-bar {
   display: flex;
   gap: 35%;
+  position: fixed;
 }
 
 .wrap-hamburger {
@@ -122,6 +123,7 @@
 .headline img {
   width: 90%;
   background: transparent;
+  margin-top: 80px;
 }
 
 .message {
