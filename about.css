@@ -13,19 +13,21 @@
   background-repeat: no-repeat;
   background-size:100% auto;
   background-color: #f7f7f8;
+  margin-top: 60px;
 }
 
 /* ---- Nav style start ---  */
 
 .nav-bar {
   display: flex;
-  gap: 35%;
   position: fixed;
+  top: 2px;
 }
 
 .wrap-hamburger {
   display: flex;
   align-items: center;
+  
 }
 
 .hamburger {
@@ -113,16 +115,8 @@
 
 /* ----- Main section and headline start */
 
-.bgImg {
-  background-image: url(./Imgs/2-Mobile-intro-bg.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 100vh;
-  width: 100vw;
-}
-
 .headline {
-  padding-top: 50px;
+  padding-top: 10px;
   text-align: center;
   margin: 0 25px;
 }
