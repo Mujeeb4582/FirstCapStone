@@ -244,8 +244,9 @@
 }
 
 .logo_details {
-  font-size: 12px;
   margin: 0 40px 40px 40px;
+  color: #808080;
+  font-size: 18px;
 }
 
 .logo_img img {
@@ -318,7 +319,7 @@
 }
 
 .mobile-footer h6 {
-  color: #808080;
+  color: #272a31;
   margin-right: 30px;
   font-weight: 800;
 }
@@ -526,6 +527,6 @@
     margin-right: 30px;
     font-size: 18px;
     font-weight: 400;
-    padding-right: 300px;
+    padding-right: 200px;
   }
 }
