@@ -120,19 +120,32 @@
   background-size: cover;
   height: 100vh;
   width: 100vw;
+  margin-bottom: 40px;
+}
+
+.main {
+  margin-bottom: 200px;
 }
 
 .headline {
-  padding-top: 50px;
-  text-align: center;
-  margin: 0 25px;
+  padding-top: 100px;
+  text-align: left;
+  margin: 0 55px;
+  color: #ef1f08;
+  line-height: 40px;
 }
 
-.headline img {
-  width: 90%;
-  background: transparent;
-  margin-top: 80px;
+.headline > h4 {
+  font-weight: 400;
+  font-size: 24px;
 }
+
+.headline > h1 {
+  font-weight: 900;
+  font-size: 36px;
+}
+
+
 
 .message {
   margin: 40px 25px 0 25px;
@@ -149,7 +162,7 @@
   width: 100%;
   margin: 0;
   padding-top: 40px;
-  padding-bottom: 100px;
+  padding-bottom: 10px;
   background-color: rgb(247, 247, 248);
   color: #272a31;
   line-height: 30px;
@@ -300,17 +313,21 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  gap: 20px;
 }
 
 .mobile-footer img {
-  width: 100%;
-  height: auto;
+  width: 50%;
+  padding-left: 80px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .mobile-footer h6 {
   color: #272a31;
   margin-right: 30px;
   font-weight: 800;
+  font-size: 16px;
 }
 
 /* media queries */
@@ -322,7 +339,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
-    height: 120vh;
+    height: 140vh;
     margin-top: 110px;
   }
 
@@ -436,10 +453,15 @@
   .headline {
     text-align: left;
     margin-left: 100px;
+    line-height: 80px;
   }
 
-  .headline img {
-    width: 60%;
+  .headline > h4 {
+    font-size: 46px;
+  }
+  
+  .headline > h1 {
+    font-size: 72px;
   }
 
   .message {
@@ -559,8 +581,10 @@
   }
 
   .mobile-footer img {
-    width: 70%;
+    width: 60%;
     padding-left: 100px;
+    padding-top: 20px;
+    padding-bottom: 20px;
   }
 
   .mobile-footer h6 {
