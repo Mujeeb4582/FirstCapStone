@@ -216,3 +216,33 @@
   padding: 16px;
   margin: 40px 0;
 }
+
+/* Speaker section start */
+.speakers h1{
+  text-align: center;
+  margin-top: 30px;
+}
+
+.speaker {
+  display: flex;
+  gap: 24px;
+  margin: 0 16px;
+  margin-bottom: 36px;
+}
+
+.details {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  text-align: justify;
+}
+
+.details h6 {
+  color: #ec5242;
+}
+
+.details p {
+  font-size: 12px;
+  line-height: 18px;
+  margin-top: 20px;
+}
