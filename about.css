@@ -11,7 +11,7 @@
 .bgImg {
   background-image: url(./Imgs/12-about_bg_01.png);
   background-repeat: no-repeat;
-  background-size:100% auto;
+  background-size: 100% auto;
   background-color: #f7f7f8;
   margin-top: 60px;
 }
@@ -27,7 +27,6 @@
 .wrap-hamburger {
   display: flex;
   align-items: center;
-  
 }
 
 .hamburger {
@@ -44,18 +43,18 @@
 }
 
 .nav-list {
-    position: fixed;
-    transform: translateY(-100%);
-    transition: transform 0.2s;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    z-index: 99;
-    background: #ec5242;
-    color: white;
-    list-style: none;
-    padding-top: 4rem;
+  position: fixed;
+  transform: translateY(-100%);
+  transition: transform 0.2s;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 99;
+  background: #ec5242;
+  color: white;
+  list-style: none;
+  padding-top: 4rem;
 }
 
 .navItem {
@@ -178,7 +177,6 @@
 
 .headline > h4 {
   font-weight: 400;
-  
 }
 
 .headline > h1 {
@@ -230,7 +228,7 @@
   margin: 0 40px 40px 40px;
 }
 
-.logo_img img{
+.logo_img img {
   width: 90%;
   margin-bottom: 40px;
 }
@@ -292,7 +290,7 @@
   justify-content: center;
 }
 
-.mobile-footer img{
+.mobile-footer img {
   width: 100%;
   height: auto;
 }
