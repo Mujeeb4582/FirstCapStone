@@ -46,7 +46,7 @@ const speakersData = [
 
 const speaker = document.getElementById('speakerWrapper');
 
-for (let i = 0; i < speakersData.length; i++) {
+for (let i = 0; i < speakersData.length; i += 1) {
   speaker.innerHTML += `<div class="speaker">
   <img src="${speakersData[i].picture}" alt="speaker-photo">
   <div class="details">
