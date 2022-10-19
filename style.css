@@ -33,6 +33,11 @@
   margin-left: 1.5rem;
 }
 
+.menuIcon {
+  font-weight: 900;
+  font-size: 30px;
+}
+
 .logo {
   display: none;
 }

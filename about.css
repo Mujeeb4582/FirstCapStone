@@ -18,10 +18,17 @@
 
 /* ---- Nav style start ---  */
 
+.socialWrapper {
+  display: none;
+}
+
 .nav-bar {
   display: flex;
-  position: fixed;
+  position: absolute;
   top: 2px;
+  height: 58px;
+  background-color: #f7f7f8;
+  width: 100%;
 }
 
 .wrap-hamburger {
@@ -35,7 +42,14 @@
   cursor: pointer;
   z-index: 100;
   margin-top: 1rem;
-  margin-left: 1.5rem;
+  margin-left: 1rem;
+  background-color: #f7f7f8;
+}
+
+.menuIcon {
+  position: fixed;
+  font-weight: 900;
+  font-size: 30px;
 }
 
 .logo {
@@ -299,4 +313,8 @@
   color: #808080;
   margin-right: 30px;
   font-weight: 800;
+}
+
+@media (min-width: 768px) {
+
 }
