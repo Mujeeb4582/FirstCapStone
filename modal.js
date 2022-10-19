@@ -44,7 +44,7 @@ const speakersData = [
   },
 ];
 
-const speaker = document.getElementById('speakers');
+const speaker = document.getElementById('speakerWrapper');
 
 for (let i = 0; i < speakersData.length; i++) {
   speaker.innerHTML += `<div class="speaker">
