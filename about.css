@@ -141,7 +141,6 @@
   line-height: 30px;
 }
 
-
 .message {
   margin: 40px 25px 0 25px;
   padding: 0 30px;
@@ -211,7 +210,6 @@
   line-height: 20px;
   margin-bottom: 30px;
 }
-
 
 /* logo section start */
 
@@ -364,7 +362,6 @@
     height: 80px;
     display: flex;
     align-items: center;
-
   }
 
   .hamburger {
@@ -423,7 +420,7 @@
   }
 
   .bgImg {
-    margin-top: 0px;
+    margin-top: 0;
   }
 
   /* ----- Main section and headline start */

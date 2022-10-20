@@ -145,8 +145,6 @@
   font-size: 36px;
 }
 
-
-
 .message {
   margin: 40px 25px 0 25px;
   padding: 0 30px;
@@ -459,7 +457,7 @@
   .headline > h4 {
     font-size: 46px;
   }
-  
+
   .headline > h1 {
     font-size: 72px;
   }
