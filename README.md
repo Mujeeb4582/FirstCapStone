@@ -54,6 +54,10 @@ git clone https://github.com/Mujeeb4582/FIRSTCAPSTONE.git
 ### Usage
 Open in browser
 
+### Project Documantaion and short descriptive Video
+
+- Click on the link for [Short video](https://www.loom.com/share/3eced874264b4ca6976675ba19df08f3)
+
 
 ## Authors
 
