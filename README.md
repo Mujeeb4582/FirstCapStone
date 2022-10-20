@@ -34,7 +34,7 @@
 
 ## Live Demo
 
-- [Live link]( https://mujeeb4582.github.io/FIRSTCAPSTONE/)
+- [Live link]( https://mujeeb4582.github.io/FirstCapStone/)
 
 
 ## Getting Started
