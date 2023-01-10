@@ -55,6 +55,7 @@
   color: white;
   list-style: none;
   padding-top: 4rem;
+  padding-left: 0;
 }
 
 .navItem {
@@ -68,7 +69,7 @@
 .box {
   border: #d3d3d3 solid 3px;
   border-radius: 8px;
-  margin: 0 130px;
+  margin: 0 4rem;
   padding: 15px 0;
 }
 
@@ -271,8 +272,7 @@
 
 .details p {
   font-size: 12px;
-  line-height: 18px;
-  margin-top: 20px;
+  line-height: 16px;
 }
 
 /* partner section start */
