@@ -1,0 +1,298 @@
+/* ----- Main section and headline start */
+.banner {
+  background-image: url(../Imgs/12-about_bg_01.png);
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-color: #f7f7f8;
+}
+
+.banner-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.headline {
+  padding-top: 20px;
+  text-align: center;
+  margin: 0 25px;
+  color: var(--red);
+  line-height: 40px;
+}
+
+.headline > h1 {
+  font-weight: 400;
+  font-size: 1.5rem;
+}
+
+.headline > h1 > span {
+  font-weight: 900;
+  font-size: 1.75rem;
+}
+
+.guide-bar {
+  min-width: 5rem;
+  min-height: 1rem;
+  border-bottom: 2px solid #ec5242;
+  margin: 0 auto 24px;
+}
+
+.location {
+  text-align: center;
+  width: 100%;
+  margin: 0;
+  padding-top: 40px;
+  padding-bottom: 100px;
+  color: #272a31;
+  line-height: 30px;
+  background-color: transparent;
+}
+
+.location .date {
+  font-weight: 900;
+  font-size: 30px;
+  line-height: 40px;
+}
+
+.location .locate {
+  font-size: 16px;
+  color: rgb(111, 112, 116);
+}
+
+.banner-content .banner-description,
+.photes p {
+  font-size: 12px;
+  padding: 16px;
+  margin: 26px;
+  line-height: 20px;
+  background-color: #fff;
+}
+
+.desktop-banner-description {
+  display: none;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  margin: 0 42px;
+  font-size: 12px;
+  line-height: 20px;
+  margin-bottom: 30px;
+}
+
+/* logo section start */
+
+/* .logo1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.logo_title {
+  display: none;
+}
+
+.logo_details {
+  margin: 0 40px 40px 40px;
+  color: #808080;
+  font-size: 18px;
+}
+
+.logo_img img {
+  width: 90%;
+  margin-bottom: 40px;
+} */
+
+/* photos section  */
+
+/* .photos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.photos_details {
+  padding: 10px 80px;
+  margin-bottom: 30px;
+  color: #808080;
+}
+
+.photos img {
+  width: 90%;
+  margin-bottom: 12px;
+} */
+
+/* partner section start */
+
+/* .partner {
+  background-color: #272a31;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 12px;
+}
+
+.partner_title {
+  margin-top: 30px;
+}
+
+.partner_logo {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 20px;
+  row-gap: 20px;
+  margin: 0 40px;
+  margin-bottom: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.partner_logo img {
+  width: 100%;
+} */
+
+/* footer start */
+
+/* .mobile-footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.mobile-footer img {
+  width: 50%;
+  padding-left: 80px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.mobile-footer h6 {
+  color: #272a31;
+  margin-right: 30px;
+  font-weight: 800;
+  font-size: 16px;
+} */
+
+@media (min-width: 768px) {
+  /* ----- Main section and headline start */
+
+  .headline {
+    padding: 20px;
+    font-size: 2.2rem;
+    line-height: 56px;
+  }
+
+  .banner-description {
+    display: none;
+  }
+
+  .headline > h1 {
+    font-size: 2.25rem;
+  }
+
+  .headline > h1 span {
+    font-size: 3.75rem;
+  }
+
+  .desktop-banner-description {
+    display: block;
+    font-size: 16px;
+    line-height: 30px;
+    padding: 20px 25px;
+    margin: 85px;
+    margin-top: 10px;
+    background-color: #fff;
+    text-align: justify;
+  }
+
+  .contact {
+    font-size: 16px;
+    margin-bottom: 80px;
+  }
+
+  .contact p {
+    font-size: 1.1rem;
+    line-height: 40px;
+  }
+
+  /* .logo_title {
+    display: none;
+  }
+
+  .logo_title {
+    display: block;
+    font-size: 30px;
+  } */
+
+  /* photos section  */
+
+  /* .photos {
+    border-top: #f3f3f3 solid 1px;
+    width: 100%;
+  }
+
+  .photos_title {
+    font-size: 30px;
+    padding-top: 30px;
+  }
+
+  .photos_details {
+    font-size: 18px;
+  }
+
+  .images {
+    display: flex;
+    gap: 24px;
+  } */
+
+  /* partner section start */
+
+  /* .partner_title {
+    font-size: 36px;
+  }
+
+  .partner_logo {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    padding: 0 100px;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 30px;
+    column-gap: 0;
+    row-gap: 0;
+  }
+
+  .partner_logo img {
+    width: 80%;
+  } */
+
+  /* footer start */
+
+  /* .mobile-footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .mobile-footer img {
+    width: 60%;
+    padding-left: 100px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .mobile-footer h6 {
+    margin-right: 30px;
+    font-size: 18px;
+    font-weight: 400;
+    padding-right: 200px;
+  } */
+}
