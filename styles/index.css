@@ -19,12 +19,12 @@
 
 .headline > h1 {
   font-weight: 400;
-  font-size: 24px;
+  font-size: 1.5rem;
 }
 
 .headline h1 span {
   font-weight: 900;
-  font-size: 36px;
+  font-size: 2.25rem;
 }
 
 .banner-description {
@@ -232,11 +232,11 @@
   }
 
   .headline > h1 {
-    font-size: 46px;
+    font-size: 2.875rem;
   }
 
   .headline > h1 span {
-    font-size: 72px;
+    font-size: 4.5rem;
   }
 
   .banner-description {
