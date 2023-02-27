@@ -9,11 +9,17 @@
 }
 
 :root {
-  --lightBlack: #272a31;
-  --lightGrayHeldOpacity: #d3d3d3df;
-  --lightGray: #d3d3d3;
-  --orange: #ec5242;
-  --orangeLightOpacity: #ec53429b;
-  --lightBlack-2: #414245;
   --primaryWhite: #fff;
+  --orange: #ec5242;
+  --red: #ef1f08;
+  --whiteLightOpacity: #f7f7f8;
+  --lightBlack: #272a31;
+  --gray: #6f7074;
+  --lightBlack-2: #414245;
+  --lightGray: #d3d3d3;
+}
+
+a {
+  color: black;
+  text-decoration: none;
 }

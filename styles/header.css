@@ -1,4 +1,3 @@
-/* ---- Nav style start ---  */
 .social-nav {
   background: var(--lightBlack);
   height: 30px;
@@ -17,6 +16,11 @@
   text-decoration: none;
   color: var(--primaryWhite);
   margin-right: 1.5rem;
+}
+
+.nav-item a {
+  text-decoration: none;
+  color: var(--primaryWhite);
 }
 
 .social-icons a:hover {
@@ -86,11 +90,6 @@
   transform: scale(1.2);
 }
 
-.nav-item a {
-  text-decoration: none;
-  color: var(--primaryWhite);
-}
-
 .nav-item:hover {
   transform: scale(1.1);
 }
@@ -127,6 +126,7 @@
     z-index: 1;
     box-shadow: 1px 1px 5px var(--lightBlack);
   }
+
   .nav-item a {
     color: var(--lightBlack-2);
     font-size: 1.125rem;
