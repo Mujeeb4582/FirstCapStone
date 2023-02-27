@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,700&display=swap");
+
+* {
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+  box-sizing: border-box;
+  margin: 0;
+  scroll-behavior: smooth;
+}
+
+:root {
+  --lightBlack: #272a31;
+  --lightGrayHeldOpacity: #d3d3d3df;
+  --lightGray: #d3d3d3;
+  --orange: #ec5242;
+  --orangeLightOpacity: #ec53429b;
+  --lightBlack-2: #414245;
+  --primaryWhite: #fff;
+}
