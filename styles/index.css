@@ -23,7 +23,7 @@
 
 .headline h1 span {
   font-weight: 900;
-  font-size: 2.25rem;
+  font-size: 1.75rem;
 }
 
 .banner-description {
@@ -182,7 +182,7 @@
   }
 
   .headline > h1 span {
-    font-size: 4.5rem;
+    font-size: 4rem;
   }
 
   .banner-description {
