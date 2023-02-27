@@ -1,64 +1,57 @@
-
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
 # FirstCapStone
 
-This project is My First Capstone and made with HTML, CSS and JavaScript. 
+> The project I have completed is my first capstone project, which involved utilizing HTML, CSS, and JavaScript to build a functional web application. Throughout the project, I worked with these programming languages to design and develop the various elements of the application.
+
+> The final product of my capstone project is a fully functional web application that includes interactive features and user-friendly design. Throughout the development process, I applied my knowledge of HTML, CSS, and JavaScript to create the necessary components and functionality for the application.
+
+> Overall, this was an excellent opportunity for me to apply my programming skills and gain hands-on experience in creating a web application. I am proud of the final product and excited to continue building upon my knowledge in these programming languages for future projects.</div>
 
 # ScreenShot
 
-
 ![smartmockups_lcq87y7z](https://user-images.githubusercontent.com/109666020/211556337-983b0209-b67b-4e25-962a-c564c9213ae7.jpg)
-
-
 
 ## Built With
 
 - HTML
-  - Use semantic HTML tags.
-  - Apply best practices in HTML code.
-
 - CSS
-  - Use CSS selectors correctly.
-  - Use CSS box model.
-  - Use Flexbox to place elements in the page.
-  - Use grid to place elements in the page.
-  - Media queries use to create UIs adaptable to different screen sizes.
-    - Mobile Max-width: 768px
-    - Desktop Min-width: 768px
-
 - JavaScript
-  - Apply JavaScript best practices and language style guides in code.
-  - Use JavaScript to manipulate DOM elements.
-  - Use JavaScript events.
-  - Use objects to store and access data.
-
 - GitHub
   - Use GitHub Pages to deploy web pages.
 
-
 ## Live Demo
 
-- [Live link]( https://mujeeb4582.github.io/FirstCapStone/)
+- [Live link](https://mujeeb4582.github.io/FirstCapStone/)
 
+## Getting Started (Setup)
 
-## Getting Started
+1. Run the command
 
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-Browser and git
-
-### Install
+```bash
 git clone https://github.com/Mujeeb4582/FIRSTCAPSTONE.git
+```
+
+2. And Run the command
+
+```bash
+npm install
+```
+
+## Prerequisites
+
+- GitHub flow
+- HTML and CSS
+- JAVASCRIPT
+- VS code
 
 ### Usage
+
 Open in browser
 
 ### Project Documantaion and short descriptive Video
 
 - Click on the link for [Short video](https://www.loom.com/share/3eced874264b4ca6976675ba19df08f3)
-
 
 ## Authors
 
@@ -72,7 +65,7 @@ Open in browser
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page](https://github.com/Mujeeb4582/FirstCapStone/issues).
 
 ## Show your support
 
@@ -88,24 +81,4 @@ Give a ⭐️ if you like this project!
 
 ## 📝 License
 
-This project is [MIT](./LICENSE) licensed.
-
-Copyright (c) 2022 Mujeeb ur Rahman
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+This project is [MIT](https://github.com/Mujeeb4582/FirstCapStone/blob/main/LICENSE) licensed.
