@@ -1,0 +1,277 @@
+.banner {
+  background-image: url(../Imgs/2-Mobile-intro-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.banner-content {
+  margin-bottom: 200px;
+}
+
+.headline {
+  padding-top: 100px;
+  text-align: left;
+  margin: 0 55px;
+  color: var(--red);
+  line-height: 40px;
+}
+
+.headline > h1 {
+  font-weight: 400;
+  font-size: 1.5rem;
+}
+
+.headline h1 span {
+  font-weight: 900;
+  font-size: 1.75rem;
+}
+
+.banner-description {
+  margin: 40px 25px 0 25px;
+  padding: 0 30px;
+  line-height: 25px;
+  word-break: break-all;
+  text-align: justify;
+  background-color: var(--whiteLightOpacity);
+  color: var(--gray);
+}
+
+.location {
+  text-align: center;
+  width: 100%;
+  margin: 0;
+  padding-top: 40px;
+  padding-bottom: 10px;
+  background-color: var(--whiteLightOpacity);
+  color: var(--lightBlack);
+  line-height: 30px;
+}
+
+.location .date {
+  font-weight: 900;
+  font-size: 1.875rem;
+  line-height: 40px;
+}
+
+.location .locate {
+  font-size: 1rem;
+  color: var(--gray);
+}
+
+/* ----- Program section start ---  */
+
+.program {
+  background-image: url(../Imgs/9-program-bg.jpg);
+  color: var(--primaryWhite);
+  text-align: center;
+  padding-top: 50px;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.main-heading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.guide-bar {
+  width: 53px;
+  height: 16px;
+  border-bottom: 1px solid var(--orange);
+  margin: 0 auto 54px;
+}
+
+.program-list {
+  background: rgba(255, 255, 255, 0.1);
+  display: flex;
+  align-items: center;
+  padding: 16px;
+  margin-bottom: 8px;
+  gap: 8px;
+}
+
+.program-title {
+  font-size: 0.875rem;
+  color: var(--orange);
+  float: left;
+  text-align: center;
+  width: 50%;
+}
+
+.program-description {
+  text-align: left;
+  font-size: 0.75rem;
+  width: calc(100% - 6.5em);
+  color: var(--lightGray);
+}
+
+.join {
+  background-color: var(--orange);
+  color: var(--lightGray);
+  border: none;
+  font-size: 0.875rem;
+  padding: 16px;
+  margin: 40px 0;
+  cursor: pointer;
+}
+
+.join:hover {
+  background-color: var(--lightGray);
+  color: var(--orange);
+  transform: scale(1.1);
+}
+
+.see {
+  display: none;
+}
+
+/* Speaker section start */
+.speakers h2 {
+  text-align: center;
+  margin-top: 1.875rem;
+}
+
+.speaker {
+  display: flex;
+  gap: 24px;
+  margin: 0 16px;
+  margin-bottom: 36px;
+}
+
+.details {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  text-align: justify;
+}
+
+.details h6 {
+  color: var(--orange);
+}
+
+.details p {
+  font-size: 0.75rem;
+  line-height: 16px;
+}
+
+/* media queries */
+
+@media (min-width: 768px) {
+  .banner {
+    background-image: url(../Imgs/26-desktop-bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .banner-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+  }
+
+  .headline {
+    text-align: left;
+    margin-left: 100px;
+    line-height: 80px;
+  }
+
+  .headline > h1 {
+    font-size: 2.875rem;
+  }
+
+  .headline > h1 span {
+    font-size: 4rem;
+  }
+
+  .banner-description {
+    font-size: 1.25rem;
+    line-height: 35px;
+    padding: 10px 25px;
+    margin-left: 85px;
+    margin-right: 300px;
+    background-color: var(--primaryWhite);
+  }
+
+  .location {
+    text-align: left;
+    padding-left: 95px;
+  }
+
+  .location .date {
+    font-size: 46px;
+    line-height: 66px;
+  }
+
+  .location .locate {
+    font-size: 2.875rem;
+  }
+
+  /* Program Section start */
+
+  .main-heading {
+    font-size: 1.845rem;
+    padding-top: 79px;
+  }
+
+  .program-list-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    margin: 0 40px;
+  }
+
+  .program-list {
+    flex-direction: column;
+    border-radius: 10px;
+  }
+
+  .program-title {
+    font-size: 1.25rem;
+    width: 100%;
+  }
+
+  .program-description {
+    text-align: center;
+    font-size: 0.875rem;
+    width: 100%;
+    padding-bottom: 12px;
+  }
+
+  .program-list:hover {
+    border: var(--orange) 3px solid;
+    transform: scale(1.001);
+  }
+
+  .join {
+    display: none;
+  }
+
+  .see {
+    display: block;
+    color: var(--lightGray);
+    font-size: 1.125rem;
+    padding: 66px;
+    letter-spacing: 2px;
+  }
+
+  .see:hover {
+    color: var(--orange);
+  }
+
+  /* Speaker section start */
+  .speakers h2 {
+    text-align: center;
+    margin-top: 36px;
+    margin-top: 90px;
+  }
+
+  .speakers-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 60px;
+    min-width: 100%;
+  }
+}
